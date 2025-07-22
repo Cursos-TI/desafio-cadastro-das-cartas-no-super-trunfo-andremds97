@@ -77,9 +77,9 @@
 
             printf("----------------------\n");
 
+            // cidade n°2
             printf("Caracteristicas da Cidade B \n");
             
-            // cidade n°2
             printf("Carta B: %s\n", carta2);
             printf("Cidade B: %s\n", cidade2);
             printf("População B: %d\n", população2);
