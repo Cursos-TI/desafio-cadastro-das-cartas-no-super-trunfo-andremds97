@@ -7,7 +7,7 @@
             // Colocando variáveis
             int população, Pturisticos;
             char carta[20], cidade[20];
-            float área, PIB, densidadepopulacional, PIBpercapita, divisao1, divisao2, divisaob, divisaoc;
+            float área, PIB, densidadepopulacional, PIBpercapita;
             
             // Caracteristicas da Cidade N°1
             // Registrando as Caracteristicas no Banco de dados
@@ -30,8 +30,8 @@
             printf("Área: \n");
             scanf("%f", &área);
         
-            divisao1 = população / área;
-            divisao2 = PIB / população;
+            densidadepopulacional = população / área;
+            PIBpercapita = PIB / população;
 
             //caracteristicas da Cidade N°2
             //Registrando as caracteristicas no Banco de dados
@@ -58,8 +58,8 @@
             printf("Área: \n");
             scanf("%f", &área2);
 
-            divisaob = população2 / área2; 
-            divisaoc = PIB2 / população2;
+            densidadepopulacional2 = população2 / área2; 
+            PIBpercapita = PIB2 / população2;
             
             //Depois de escrever toda base de dados, agora é hora de imprimir as informações na tela usando a função print para aparecerem todas ao mesmo tempo.
             //Cidade n° 2
@@ -72,8 +72,8 @@
             printf("PIB A: %.2f\n", PIB);
             printf("Pontos Turísticos A: %d\n", Pturisticos);
             printf("Área A: %.2f km²\n", área);
-            printf("Densidade Populacional: %2.f\n", divisao1);
-            printf("PIB per Capita: %.3f\n", divisao2);
+            printf("Densidade Populacional: %2.f\n", densidadepopulacional);
+            printf("PIB per Capita: %.3f\n", PIBpercapita);
 
             printf("----------------------\n");
 
@@ -86,8 +86,8 @@
             printf("PIB B: %.2f\n", PIB2);
             printf("Pontos Turisticos B: %d\n", Pturisticos2);
             printf("Área B: %.2f km²\n", área);
-            printf("Densidade Populacional: %2.f\n", divisaob);
-            printf("PIB per Capita: %.3f\n", divisaoc);
+            printf("Densidade Populacional: %2.f\n", densidadepopulacional2);
+            printf("PIB per Capita: %.3f\n", PIBpercapita);
 
            
             return 0;
