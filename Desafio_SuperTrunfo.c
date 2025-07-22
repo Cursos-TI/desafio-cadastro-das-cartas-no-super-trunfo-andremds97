@@ -62,8 +62,7 @@
             PIBpercapita = PIB2 / população2;
             
             //Depois de escrever toda base de dados, agora é hora de imprimir as informações na tela usando a função print para aparecerem todas ao mesmo tempo.
-            //Cidade n° 2
-            
+            //Cidade n° 1
             printf("Caracteristicas da Cidade A \n");
     
             printf("Carta A: %s\n", carta);
