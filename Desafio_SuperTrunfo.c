@@ -112,7 +112,7 @@
             printf("Super Poder: Carta 1 venceu (%d)\n", superpoder > superpoder2);
 
             printf("Comparando as Cartas: População!\n");
-            printf("----------------------------------/n");
+            printf("----------------------------------\n");
 
             if(população > população2) {
                 printf("População A é maior\n");
